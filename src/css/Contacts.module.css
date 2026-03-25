@@ -1,75 +1,9 @@
-body {
-    margin: 0;
-}
-
-#root {
-        font-family: Arial, sans-serif;
-        background-color: #1A1F2B;
-        background-image: url('/project-root/assets/images/pattern_2000x2000_22.png');
-        background-repeat: repeat;
-        background-size: 50px 50px;
-
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
-
-main {
+.container_contacts {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
-header * {
-    margin: 0;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    background-color: #222933;
-    height: 64px;
-    border-radius: 0 0 10px 10px;
-    user-select: none;
-}
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #222933;
-}
-
-header h1 {
-    color: #E0E6F0;
-    font-size: 18px;
-}
-
-nav {
-    display: flex;
-    gap: 24px;
-}
-
-nav a {
-    color: #E0E6F0;
-    text-decoration: none;
-    transition: all 0.3s ease;    
-}
-
-nav a:hover {
-    color: #60A5FA;
-}
-
-main {
-    flex: 1;
-}
-
-
 
 .section_del {
     min-width: 400px;
@@ -159,22 +93,3 @@ main {
     
     
 }
-
-
-
-/* ========== ПОДВАЛ СТРАНИЦЫ ⤵ ============= */
-
-footer {
-    background-color: #222933;
-    height: 48px;
-    border-radius: 10px 10px 0 0 ;
-
-
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    align-items: center;
-    color: #4A5568;
-
-}
-

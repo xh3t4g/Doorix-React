@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 }
@@ -5,14 +6,14 @@ body {
 #root {
         font-family: Arial, sans-serif;
         background-color: #1A1F2B;
-        background-image: url('/project-root/assets/images/pattern_2000x2000_22.png');
+        background-image: url('../assets/images/pattern_300x300.png');
         background-repeat: repeat;
         background-size: 50px 50px;
+
 
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-
     }
 
     main {
@@ -30,8 +31,8 @@ body {
         justify-content: center;
         align-items: center;
         gap: 8px;
-        backdrop-filter: blur(4px);
         background-color: #222933ad;
+        backdrop-filter: blur(4px);
         height: 64px;
         border-radius: 0 0 10px 10px;
         user-select: none;
@@ -55,7 +56,7 @@ body {
     }
 
     nav button {
-        background-color: #222933ad;
+        background-color: rgba(0, 0, 0, 0);
         color: #E0E6F0;
         text-decoration: none;
         border: none;
@@ -77,63 +78,18 @@ body {
     #card-list {
         display: grid;
         gap: 16px;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         margin: 0 auto; 
         max-width: 1200px;
         padding: 0 10px;
     }
 
 
-    .card {
-        display: flex;
-        flex-direction: column;
-        padding: 6px;
-        background-color: #2A3245;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-        border-radius: 16px;
-    }
-
-    .card img {
-        width: 100%;
-        aspect-ratio: 3 / 4;
-        object-fit: cover;
-        display: block;
-        border-radius: 12px;
-    }
-
-    .card-content * {
-        margin: 0 auto;
-    }
-
-    .card-content {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        color: #E0E6F0;
-    }
-
-    .card-button {
-        margin: 10px;
-        text-align: center;
-        padding: 6px;
-        border-radius: 10px;
-        background: linear-gradient(45deg, #3B82F6, #1E40AF);
-        background-size: 300% 300%;
-        text-decoration: none;
-        color: #fff;
-        transition: background-position 0.3s ease;
-    }
-
-    .card-button:hover {
-        background-position: right;
-    }
-
 
     /* Планшет */
     @media (max-width: 768px) {
         #card-list {
-            grid-template-columns: repeat(auto-fit, minmax(150px, 5fr));
+            grid-template-columns:repeat(auto-fill, minmax(180px, 1fr));
             gap: 12px;
         }
     }

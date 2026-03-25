@@ -1,4 +1,4 @@
-import '../css/delivery.css'
+import css from '../css/Delivery.module.css';
 
 export function DeliveryPage ({setCurrentPage}) {
     return <>
@@ -14,11 +14,13 @@ export function DeliveryPage ({setCurrentPage}) {
         </header>
 
         <main>
-            <section className='section_del'>
-                <h3>Доставка по всей Росcии 🇷🇺 </h3>
+            <div className={css['container_delivery']}>
+                <section className={css['section_del']}>
+                    <h3>Доставка по всей Росcии 🇷🇺 </h3>
 
-                <div class="delivery_contetnt">Полный перечень регионов и цен на доставку появится здесь позже. Сейчас вы можете легко узнать стоимость, связавшись с продавцом через раздел «Контакты».</div>
-            </section>
+                    <div className={css["delivery_contetnt"]}>Полный перечень регионов и цен на доставку появится здесь позже. Сейчас вы можете легко узнать стоимость, связавшись с продавцом через раздел «Контакты».</div>
+                </section>
+            </div>
         </main>
 
         <footer>

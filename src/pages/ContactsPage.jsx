@@ -1,4 +1,4 @@
-import '../css/contacts.css'
+import css from '../css/Contacts.module.css';
 
 export function ContactsPage ({setCurrentPage}) {
     return <>
@@ -14,21 +14,23 @@ export function ContactsPage ({setCurrentPage}) {
         </header>
 
         <main>
-            <section className='section_del'>
-                <h3>Контакты</h3>
+            <div className={css['container_contacts']}>
+                <section className={css['section_del']}>
+                    <h3>Контакты</h3>
 
-                <div class="content_buttons">
-                    <a href="https://t.me/cnskfho" class="Telegram">Telegram</a>
-                    <a href="https://wa.me/79931844622" class="WhatsApp">WhatsApp</a>
-                </div>
+                    <div className={css["content_buttons"]}>
+                        <a href="https://t.me/cnskfho" className={css["Telegram"]}>Telegram</a>
+                        <a href="https://wa.me/79931844622" className={css["WhatsApp"]}>WhatsApp</a>
+                    </div>
 
-                <div class="contact-info">консультация · расчёт · заказ                
-                </div>
+                    <div className={css["contact-info"]}>консультация · расчёт · заказ                
+                    </div>
 
-                <div class="response-time">
-                    Ответ в течение дня
-                </div>
-            </section>
+                    <div className={css["response-time"]}>
+                        Ответ в течение дня
+                    </div>
+                </section>
+            </div>
         </main>
 
         <footer>

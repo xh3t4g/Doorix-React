@@ -1,0 +1,31 @@
+
+.container_delivery {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_del {
+    min-width: 400px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    background-color: #2A3245;
+    border-radius: 20px;
+}
+
+.section_del h3 {
+    color: #E0E6F0;
+    text-align: center;
+}
+
+.delivery_contetnt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #E0E6F0;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 20px;
+}
