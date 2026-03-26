@@ -12,7 +12,7 @@ export function Card({door}) {
                 <a href={`https://t.me/cnskfho?text=${encodeURIComponent(
                 `Хочу заказать ворота\n${new URL(
                     door.img,
-                    window.location.origin
+                    window.location.href
                 ).href}`
             )}`}
             className={css["card-button"]}
