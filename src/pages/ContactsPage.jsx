@@ -35,7 +35,9 @@ export function ContactsPage ({setCurrentPage}) {
 
         <footer>
             <h3>© 2026 Кованые ворота</h3>
-            <p>+7 993 184 46 22</p>
+            <p>
+                <a href="tel:+79931844622">+7 993 184 46 22</a>
+            </p>
         </footer>
 
     

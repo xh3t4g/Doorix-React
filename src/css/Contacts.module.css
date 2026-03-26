@@ -6,12 +6,13 @@
 }
 
 .section_del {
-    min-width: 400px;
+    min-width: 300px;
     width: 600px;
     height: 400px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
     background-color: #2A3245;
     border-radius: 20px;
+    padding: 10px;
 }
 
 .section_del h3 {
@@ -43,8 +44,8 @@
 .Telegram {
     background: linear-gradient(
         135deg,
-        #3B82F6,
-        #1E40AF
+        #0a70cb,
+        #21a6de
     );
     padding: 10px;
     border-radius: 10px;
@@ -53,6 +54,7 @@
 
 .Telegram:hover {
     box-shadow: 0 0 10px  #3B82F6;
+    transform: translateX(-10px);
 }
 .Telegram:active {
     transform: scale(0.9);
@@ -61,8 +63,8 @@
 .WhatsApp {
     background: linear-gradient(
         135deg,
-        #25D366,
-        #128C7E
+        #238f2b,
+        #6ab634
     );
     padding: 10px;
     border-radius: 10px;
@@ -70,6 +72,7 @@
 }
 .WhatsApp:hover {
     box-shadow: 0 0 10px #25D366;
+    transform: translateX(10px);
 }
 .WhatsApp:active {
     transform: scale(0.9);
@@ -92,4 +95,10 @@
     color: #40485b;
     
     
+}
+
+@media (max-width: 400px) {
+    .contact-info {
+        font-size: 16px;
+    }
 }
