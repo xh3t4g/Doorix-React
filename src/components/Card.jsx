@@ -10,7 +10,10 @@ export function Card({door}) {
 
             <div className={css["card-content"]}>
                 <a href={`https://t.me/cnskfho?text=${encodeURIComponent(
-                `Хочу заказать ворота\n${door.img}`
+                `Хочу заказать ворота\n${new URL(
+                    door.img,
+                    window.location.origin
+                ).href}`
             )}`}
             className={css["card-button"]}
             target="_blank"
