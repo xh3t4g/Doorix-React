@@ -67,12 +67,9 @@ npm run dev
 
 ## Скриншоты
 
-<p align="center">
-  <img src="./screenshots/vid_pc.png" width="800">
-</p>
-<p align="center">
-  <img src="./screenshots/vid_phone.png" width="400">
-</p>
+![На пк](./screenshots/vid_pk.png)
+
+![На телефоне](./screenshots/vid_phon.jpg)
 
 ---
 
