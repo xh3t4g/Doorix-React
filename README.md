@@ -71,6 +71,10 @@ npm run dev
 
 ![На телефоне](./screenshots/vid_phon.jpg)
 
+<p align="center">
+  <img src="./screenshots/vid_phon.jpg" width="400" />
+</p>
+
 ---
 
 ## Статус проекта
