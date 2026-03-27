@@ -69,7 +69,8 @@ npm run dev
 
 ![На пк](./screenshots/vid_pk.png)
 
-![На телефоне](./screenshots/vid_phon.jpg)
+<img src="./screenshots/vid_phon.jpg" width="300" />
+
 
 <p align="center">
   <img src="./screenshots/vid_phon.jpg" width="400" />
