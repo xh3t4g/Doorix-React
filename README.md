@@ -72,10 +72,6 @@ npm run dev
 <img src="./screenshots/vid_phon.jpg" width="300" />
 
 
-<p align="center">
-  <img src="./screenshots/vid_phon.jpg" width="400" />
-</p>
-
 ---
 
 ## Статус проекта
