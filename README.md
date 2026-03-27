@@ -1,16 +1,103 @@
-# React + Vite
+# Doorix React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Обзор
 
-Currently, two official plugins are available:
+Doorix React — это сайт, предназначенный для упрощения взаимодействия между клиентом и исполнителем услуг.
+Проект представляет собой практичный интерфейс, позволяющий пользователям просматривать услуги, получать информацию и быстро устанавливать контакт.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Цель проекта — создать лёгкий, понятный и доступный инструмент взаимодействия бизнеса и клиента без лишней сложности.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Демо
 
-## Expanding the ESLint configuration
+[Открыть сайт](https://xh3t4g.github.io/Doorix-React/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Рекомендуется проверить:
+
+* навигацию между страницами
+* просмотр услуг
+* адаптивное поведение интерфейса
+
+---
+
+## Возможности
+
+* каталог услуг
+* интерфейс взаимодействия клиент–исполнитель
+* адаптивный дизайн
+* модульная структура компонентов
+* быстрая навигация страниц
+
+---
+
+## Технологический стек
+
+* React
+* Vite
+* JavaScript
+* CSS Modules
+* HTML5
+
+---
+
+## Архитектура
+
+Проект построен на компонентном подходе:
+
+* `components/` — переиспользуемые UI-компоненты
+* `pages/` — страницы сайта
+* `assets/` — статические ресурсы
+* `styles/` — модульные стили
+
+Логика интерфейса отделена от представления для повышения предсказуемости и переиспользуемости компонентов.
+
+---
+
+## Установка
+
+```bash
+git clone https://github.com/xh3t4g/Doorix-React.git
+cd Doorix-React
+npm install
+npm run dev
+```
+
+---
+
+## Скриншоты
+
+<p align="center">
+  <img src="./screenshots/vid_pc.png" width="800">
+</p>
+<p align="center">
+  <img src="./screenshots/vid_phone.png" width="400">
+</p>
+
+---
+
+## Статус проекта
+
+Текущая версия функциональна и может использоваться как лёгкий сайт для взаимодействия клиента и исполнителя.
+
+Планируемые улучшения:
+
+* интеграция backend
+* валидация форм
+* сохранение данных
+* оптимизация производительности
+
+---
+
+## Полученный опыт
+
+* переход от Vanilla JavaScript к архитектуре React
+* декомпозиция компонентов
+* организация структуры проекта
+* работа со сборщиком Vite
+
+---
+
+## Автор
+
+GitHub: https://github.com/xh3t4g
